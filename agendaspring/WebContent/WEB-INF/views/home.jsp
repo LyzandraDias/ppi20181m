@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Minha aplicação deu CERTO! #elenão</title>
+<title></title>
 </head>
 <body>
-
+<h1>Minha aplicação deu CERTO! #elenão</h1>
 </body>
 </html>
