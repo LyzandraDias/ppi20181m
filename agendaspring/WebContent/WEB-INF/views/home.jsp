@@ -7,6 +7,6 @@
 <title></title>
 </head>
 <body>
-<h1>Minha aplicação deu CERTO! #elenão</h1>
+<h1>Minha aplicação deu CERTO!</h1>
 </body>
 </html>
