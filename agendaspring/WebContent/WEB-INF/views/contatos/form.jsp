@@ -9,7 +9,7 @@
 <body>
 
 <h1>Adicionar Contato</h1>
-		<form action="/agendaspring/contatos">
+		<form action="/agendaspring/contatos" method= "post">
 		<input type="hidden" name="comando" value="AdicionarContato">
 		<div>
 			<label>Nome: </label> 

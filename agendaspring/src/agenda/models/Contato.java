@@ -13,6 +13,13 @@ public class Contato {
 	@DateTimeFormat(pattern="dd/MM/yyyy")
 	private Calendar dataNascimento;
 
+	
+	@Override
+	public String toString() {
+		return "Contato [id=" + id + ", nome=" + nome + ", email=" + email + ", endereco=" + endereco
+				+ ", dataNascimento=" + dataNascimento + "]";
+	}
+
 	public Long getId() {
 		return id;
 	}
