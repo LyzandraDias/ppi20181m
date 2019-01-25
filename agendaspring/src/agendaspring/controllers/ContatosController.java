@@ -28,7 +28,7 @@ public class ContatosController {
 		System.out.println(contato);
 		ContatoDAO contatoDAO = new ContatoDAO();
 		contatoDAO.inserir(contato);
-		return "contatos/ok";
+		return "redirect:contatos";
 	}
 	
 	@GetMapping("/contatos")
@@ -40,5 +40,15 @@ public class ContatosController {
 		model.addObject("contatos", lista);
 		return model;
 		
+	}
+	
+	@RequestMapping("/contatos/remover")
+	public String remover(Contato contato) {
+		System.out.println("chamou o método remover.");
+		ContatoDAO contatoDAO = new ContatoDAO();
+		contatoDAO.remover(contato);
+		
+		return "redirect:../contatos";
+			
 	}
 }
